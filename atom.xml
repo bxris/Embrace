@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+    <title>MOUNTHLY REPORT</title>
+    <link href="https://edition.cnn.com/services/rss"/>
+    <updated>2020-04-01</updated>
+    <author>
+        <name>EMBRACE</name>
+    </author>
+
+    <entry>
+        <title>Report to the 10th day of 2020</title>
+        <link href="https://micfinsystem.ru/images/userguide/12-42-otchet-o-microfinans-deyat/12-42-1.png"/>
+        <id>0A-00-27-00-00-11</id>
+        <updated>2020-03-10</updated>
+        <summary>during this period 20 new participants were processed</summary>
+      
+    </entry>
+
+    <entry>
+        <title>Report to the 20th day of 2020</title>
+        <link href="https://workaud.com/uploads/images/blog/Work_report2.jpg"/>
+        <id>0A-00-27-00-00-11</id>
+        <updated>2020-04-20</updated>
+        <summary>during this period 22 new participants were processed</summary>
+       
+    </entry>
+
+    <entry>
+        <title>Report to the 30th day of 2020</title>
+        <link href="https://forum.infostart.ru/upload/forum/upload/a24/a2472907782f17f78b1046cf14c98ab4"/>
+        <id>0A-00-27-00-00-11</id>
+        <updated>2020-04-30</updated>
+        <summary>during this period 19 new participants were processed</summary>
+        
+    </entry>
+
+</feed>
