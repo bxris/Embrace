@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Embrace</title>
+<meta charset="utf-8">
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+    td{
+        padding:5px;
+    }
+    caption{
+        width: 200px;
+    }
+    th{
+        padding:5px;
+    }
+</style>
+</head>
+<body>
+<html>
+	<head>
+		<style>
+			.item {
+				max-width: 230px;
+			}
+		</style>
+	</head>
+<body>
+		<div>
+		<h1>Embrace</h1>
+		<ul>
+			    Твой IP - <!--#echo var="REMOTE_ADDR"--> <BR>
+				Твой броузер - <!--#echo var="HTTP_USER_AGENT"--> <BR>
+				Мой сервер - <!--#echo var="SERVER_NAME"--> <BR>
+				Ты пришел со страницы - <!--#echo var="HTTP_REFERER"--> <BR>
+			 <a href="/employees/reviews">Выбрать работника</a>
+			  <p><b>Неправильный код:</b><br>
+                    <input type="text" size="40" value="Ваш код">
+             </p>
+		 	 <p><input type="submit" value="Начать работу"></p>
+			    <p><b>Правильный код:</b><br>
+                    <input type="text" size="40" value="Наш код">
+             </p>
+		</ul>
+	</div>
+	<!--#include virtual="/channels" -->
+	
+<footer>
+  
+        Take a look on <a href="/news/atom.xml">MOUNTLY REPORT</a> as XSLT processing in nginx</p>
+ 
+	<h1>Лучшие работники:</h1>
+	<table width="400px" height="100px">
+		<tr>
+			<td><img src="https://cdn-images-1.medium.com/max/1024/1*V-tD6e63DD8lecFcKRm2eg.jpeg" width="100px" height="70px"></td>
+			<td></td>
+			<td><img src="https://weraveyou.com/wp-content/uploads/2017/08/gettyimages-646754798.jpg" width="100px" height="70px"></td>
+			<td></td>
+			<td><img src="https://media.canal3.md/image/201702/full/c4xkvutucaax869_60860100.jpg" width="100px" height="70px"></td>
+		</tr>
+		<tr>
+			<td>Marshall Mathers</td>
+			<td></td>
+			<td>Calvin Harris</td>
+			<td></td>
+			<td>Abel Tesfaye</td>
+		</tr>
+	</table>
+
+ 
+	
+<!--#echo var="date_local"-->	
+</footer>
+</body>
+</html>
